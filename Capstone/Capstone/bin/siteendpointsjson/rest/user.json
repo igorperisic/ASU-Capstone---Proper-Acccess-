@@ -1,0 +1,2238 @@
+{
+    "data": [
+        {
+            "_id": "5f89dd5eb3a3b406858065cc",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1649891125,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1602870622,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649891105,
+            "mac": "dc:8b:28:49:4c:5b",
+            "os_name": 3,
+            "oui": "IntelCor",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f89dfdbb3a3b406858065e6",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 12,
+            "dev_id": 2662,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1649688346,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1602871259,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649688315,
+            "mac": "5c:80:b6:d3:5c:75",
+            "os_name": 24,
+            "oui": "IntelCor",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f90b17bb3a3b40685809d4e",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1649707318,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1603318139,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649707006,
+            "mac": "c0:b6:f9:2f:10:f2",
+            "os_name": 3,
+            "oui": "IntelCor",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f931ca05cbaf80748efd58f",
+            "confidence": 100,
+            "dev_cat": 57,
+            "dev_family": 35,
+            "dev_id": 2641,
+            "dev_vendor": 234,
+            "disconnect_timestamp": 1649689209,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1603476640,
+            "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+            "hostname": "Server-Room",
+            "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+            "icon_resolutions": [
+                [
+                    101,
+                    101
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649689188,
+            "mac": "b4:fb:e4:7e:65:41",
+            "os_name": 1,
+            "oui": "Ubiquiti",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Micro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+                "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "Server-Room",
+                "product_line": "PROTECT",
+                "product_model": "G3 Micro"
+            }
+        },
+        {
+            "_id": "5f931d305cbaf80748efd5ad",
+            "confidence": 100,
+            "dev_cat": 57,
+            "dev_family": 35,
+            "dev_id": 2641,
+            "dev_vendor": 234,
+            "disconnect_timestamp": 1649689209,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1603476784,
+            "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+            "hostname": "Front-Entrance-Interior",
+            "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+            "icon_resolutions": [
+                [
+                    101,
+                    101
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649689188,
+            "mac": "b4:fb:e4:7e:78:4d",
+            "os_name": 1,
+            "oui": "Ubiquiti",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Micro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+                "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "Front-Entrance-Interior",
+                "product_line": "PROTECT",
+                "product_model": "G3 Micro"
+            }
+        },
+        {
+            "_id": "5fc546445cbaf80748f29e71",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1649689209,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1606764100,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649689188,
+            "mac": "a4:08:01:8e:57:a6",
+            "os_name": 3,
+            "oui": "Amazon Technologies Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5fc8140e5cbaf80748f2d8a0",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 2858,
+            "dev_vendor": 320,
+            "device_name": "iPhone 11",
+            "disconnect_timestamp": 1650131784,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1606947854,
+            "fw_version": "14.2",
+            "hostname": "MacOwnersiPhone",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650131781,
+            "mac": "52:31:2e:b6:74:8f",
+            "os_class": 16,
+            "os_name": 24,
+            "oui": "",
+            "priority": 400,
+            "score": 50,
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "60004f526091e104798629b4",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1650049123,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1610633042,
+            "hostname": "pa-lt-dvitello",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650049119,
+            "mac": "dc:71:96:9a:e3:db",
+            "os_name": 18,
+            "oui": "IntelCor",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "600873aa6091e1047987249a",
+            "confidence": 99,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2665,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643234655,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1611166633,
+            "hostname": "LAPTOP-1I4UVUIC",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643234624,
+            "mac": "44:af:28:47:68:19",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "6009dfd76091e10479874883",
+            "confidence": 100,
+            "dev_cat": 57,
+            "dev_family": 35,
+            "dev_id": 2641,
+            "dev_vendor": 234,
+            "disconnect_timestamp": 1649689209,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1611259863,
+            "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+            "hostname": "Office-Cam-2",
+            "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+            "icon_resolutions": [
+                [
+                    101,
+                    101
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649689188,
+            "mac": "b4:fb:e4:7e:b9:5d",
+            "os_name": 1,
+            "oui": "Ubiquiti",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Micro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+                "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "Office-Cam-2",
+                "product_line": "PROTECT",
+                "product_model": "G3 Micro"
+            }
+        },
+        {
+            "_id": "6009e12d6091e104798748e3",
+            "confidence": 100,
+            "dev_cat": 57,
+            "dev_family": 35,
+            "dev_id": 2641,
+            "dev_vendor": 234,
+            "disconnect_timestamp": 1649689209,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1611260205,
+            "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+            "hostname": "Office-Entrance",
+            "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+            "icon_resolutions": [
+                [
+                    101,
+                    101
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649689188,
+            "mac": "b4:fb:e4:7f:72:a7",
+            "os_name": 1,
+            "oui": "Ubiquiti",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Micro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+                "icon_filename": "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/aea0b2dd-53a7-4a01-9057-d4278f7430bc_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "Office-Entrance",
+                "product_line": "PROTECT",
+                "product_model": "G3 Micro"
+            }
+        },
+        {
+            "_id": "601c2ae7df1b260504c9bf8d",
+            "confidence": 99,
+            "dev_cat": 49,
+            "dev_family": 24,
+            "dev_id": 1607,
+            "dev_vendor": 268,
+            "disconnect_timestamp": 1647910687,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1612458727,
+            "hostname": "Rivkys-Air",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1647910661,
+            "mac": "14:7d:da:60:ff:c4",
+            "os_name": 1,
+            "oui": "Apple, Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "603e82d44551c104fbe01b75",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1649784900,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1614709460,
+            "hostname": "Galaxy-A71-5G",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649784877,
+            "mac": "62:95:f7:03:49:b8",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "606db7234551c104fbe44219",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 2858,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1649778058,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1617803043,
+            "hostname": "MacOwnersiPhone",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649777719,
+            "mac": "66:b7:54:80:21:93",
+            "os_class": 16,
+            "os_name": 24,
+            "oui": "",
+            "priority": 400,
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "608068cbd12cc504df7a47a9",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 12,
+            "dev_id": 2662,
+            "dev_vendor": 320,
+            "device_name": "iPhone XR",
+            "disconnect_timestamp": 1643060449,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1619028171,
+            "fw_version": "14.4.2",
+            "hostname": "Dustins-XR",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643060418,
+            "mac": "d2:64:ff:03:a4:c5",
+            "os_class": 16,
+            "os_name": 24,
+            "oui": "",
+            "priority": 400,
+            "score": 71,
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "608ada3a05f3820c7064f12b",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 12,
+            "dev_id": 2662,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1649804739,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1619712570,
+            "hostname": "Galaxy-S20-Ultra-5G",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649804718,
+            "mac": "82:30:4f:69:1b:61",
+            "os_name": 24,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "609031aa05f3820c70658d0d",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 2860,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1649688820,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1620062634,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649688800,
+            "mac": "62:af:79:70:84:29",
+            "os_class": 16,
+            "os_name": 24,
+            "oui": "",
+            "priority": 400,
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "60a6963905f3823926a7e47a",
+            "confidence": 99,
+            "dev_cat": 46,
+            "dev_family": 13,
+            "dev_id": 2137,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1648141246,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1621530169,
+            "hostname": "Juscelinos-MBP",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1648141232,
+            "mac": "08:f8:bc:69:56:11",
+            "os_name": 72,
+            "oui": "Apple",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "60a6977305f3823926a7e4a0",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 4440,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1648141267,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1621530483,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1648140917,
+            "mac": "4e:59:a9:03:29:ef",
+            "os_name": 24,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "60ad226f05f3826c868f2f09",
+            "confidence": 100,
+            "dev_cat": 47,
+            "dev_family": 17,
+            "dev_id": 2777,
+            "dev_vendor": 244,
+            "disconnect_timestamp": 1649353472,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1621959279,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649353438,
+            "mac": "dc:91:bf:d6:c3:7b",
+            "os_name": 1,
+            "oui": "Amazon Technologies Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "60c1116e05f3826c86917538",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1649860858,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1623265646,
+            "hostname": "Pixel-4a-5G",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1649860542,
+            "mac": "1a:65:a6:8e:10:fd",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "60ddf25c605a4f39bc0f9d3e",
+            "dev_cat": 30,
+            "dev_family": 3,
+            "dev_id": 609,
+            "dev_vendor": 11,
+            "disconnect_timestamp": 1648950489,
+            "fingerprint_source": 1,
+            "first_seen": 1625158236,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1648950465,
+            "mac": "6e:39:9e:20:34:7b",
+            "os_class": 16,
+            "os_name": 25,
+            "oui": "",
+            "priority": 101,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "60f576cb871db60bd4621ec8",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 4433,
+            "dev_vendor": 96,
+            "disconnect_timestamp": 1650044158,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1626699467,
+            "hostname": "Sean-s-Galaxy-Note20-Ultra-5G",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650043818,
+            "mac": "ea:94:cc:68:47:2b",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61489ed218a9720bf05e5d0e",
+            "dev_cat": 6,
+            "dev_family": 3,
+            "dev_id": 247,
+            "dev_vendor": 11,
+            "device_name": "Apple OS",
+            "disconnect_timestamp": 1643060828,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 1,
+            "first_seen": 1632149201,
+            "fw_version": "",
+            "hostname": "Dustins-XR",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643060486,
+            "mac": "b2:da:07:20:77:0a",
+            "os_class": 16,
+            "os_name": 25,
+            "oui": "",
+            "priority": 400,
+            "score": 87,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6156366acd81125403badb47",
+            "dev_cat": 16879,
+            "dev_family": 16879,
+            "dev_id": 33449,
+            "dev_vendor": 16893,
+            "device_name": "Apple OS",
+            "disconnect_timestamp": 1650050529,
+            "fingerprint_engine_version": "",
+            "fingerprint_source": 2,
+            "first_seen": 1633039978,
+            "fw_version": "",
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1650050527,
+            "mac": "56:21:e0:93:4f:cf",
+            "oui": "",
+            "score": 87,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6176d5792a50290ce496deb4",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 12,
+            "dev_id": 2662,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1649688658,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1635177849,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1649688323,
+            "mac": "b4:a9:fc:8a:32:f1",
+            "os_name": 24,
+            "oui": "Quanta Computer Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "619274da608c440bfb7960f0",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1646151665,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1636988122,
+            "hostname": "Ryan-s-Z-Flip",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1646151634,
+            "mac": "0e:58:36:33:f5:b3",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61b3b2f12359743b48bfac1b",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1649693077,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1639166705,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649693063,
+            "mac": "3c:f0:11:81:4a:d4",
+            "os_name": 3,
+            "oui": "Intel Corporate",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61bb98ae2359740d73c147fe",
+            "confidence": 99,
+            "dev_cat": 47,
+            "dev_family": 14,
+            "dev_id": 17,
+            "dev_vendor": 96,
+            "disconnect_timestamp": 1649689258,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1639684270,
+            "hostname": "Samsung",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1649688931,
+            "mac": "68:72:c3:38:2b:36",
+            "os_name": 3,
+            "oui": "Samsung Electronics Co.,Ltd",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61c4a3f723597421753b9912",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 4,
+            "dev_vendor": 320,
+            "device_name": "Apple OS",
+            "disconnect_timestamp": 1644504107,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1640276983,
+            "fw_version": "",
+            "hostname": "Georges-iPhone",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1644504084,
+            "mac": "ca:df:a6:e5:0d:24",
+            "os_class": 16,
+            "os_name": 24,
+            "oui": "",
+            "priority": 4000,
+            "score": 88,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61c87be823597421753c27b7",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1650080483,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1640528872,
+            "hostname": "Paul-s-S21-Ultra",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650080482,
+            "mac": "76:06:e4:5f:9e:9a",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61e0bcf154e4ae0d3fb48f18",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1649442076,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1642118385,
+            "hostname": "realme-7",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1649442075,
+            "mac": "12:4b:e6:ed:c6:12",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61e9d3e5a42f8a0c1ded7abc",
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1642714084,
+            "fw_version": "UVC.S2L.v4.41.16.67.db78752.210719.1653",
+            "hostname": "main-entrance-exterior",
+            "icon_filename": "fd65593a-2cbe-456c-ab39-f9f61f067287",
+            "icon_resolutions": [
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    51,
+                    51
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    101,
+                    101
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1642714084,
+            "mac": "b4:fb:e4:05:c9:d8",
+            "oui": "Ubiquiti Networks Inc.",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Bullet",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2L.v4.41.16.67.db78752.210719.1653",
+                "icon_filename": "fd65593a-2cbe-456c-ab39-f9f61f067287",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "main-entrance-exterior",
+                "product_line": "PROTECT",
+                "product_model": "G3 Bullet"
+            },
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61e9d3e5a42f8a0c1ded7abd",
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1642714084,
+            "fw_version": "UVC.S2L.v4.41.16.67.db78752.210719.1653",
+            "hostname": "front-driveway",
+            "icon_filename": "fd65593a-2cbe-456c-ab39-f9f61f067287",
+            "icon_resolutions": [
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    51,
+                    51
+                ],
+                [
+                    129,
+                    129
+                ],
+                [
+                    101,
+                    101
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1642714084,
+            "mac": "b4:fb:e4:05:c8:0f",
+            "oui": "Ubiquiti Networks Inc.",
+            "product_line": "unifi-protect",
+            "product_model": "Camera G3 Bullet",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_device_info_from_ucore": {
+                "device_state": "CONNECTED",
+                "fw_status": "UP_TO_DATE",
+                "fw_version": "UVC.S2L.v4.41.16.67.db78752.210719.1653",
+                "icon_filename": "fd65593a-2cbe-456c-ab39-f9f61f067287",
+                "icon_resolutions": [
+                    [
+                        25,
+                        25
+                    ],
+                    [
+                        51,
+                        51
+                    ],
+                    [
+                        101,
+                        101
+                    ],
+                    [
+                        129,
+                        129
+                    ],
+                    [
+                        257,
+                        257
+                    ]
+                ],
+                "icons": [
+                    {
+                        "height": 25,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_25x25.png",
+                        "width": 25
+                    },
+                    {
+                        "height": 51,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_51x51.png",
+                        "width": 51
+                    },
+                    {
+                        "height": 101,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_101x101.png",
+                        "width": 101
+                    },
+                    {
+                        "height": 129,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_129x129.png",
+                        "width": 129
+                    },
+                    {
+                        "height": 257,
+                        "url": "https://static.ui.com/fingerprint/ui/icons/fd65593a-2cbe-456c-ab39-f9f61f067287_257x257.png",
+                        "width": 257
+                    }
+                ],
+                "managed": true,
+                "name": "front-driveway",
+                "product_line": "PROTECT",
+                "product_model": "G3 Bullet"
+            },
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f173e8a42f8a0c1dee8307",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 4625,
+            "dev_vendor": 320,
+            "device_name": "iOS",
+            "disconnect_timestamp": 1649866320,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1643213800,
+            "fw_version": "",
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649866317,
+            "mac": "46:f3:5b:a2:84:84",
+            "os_name": 24,
+            "oui": "",
+            "score": 87,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f195d1a42f8a0c1dee87a8",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643811673,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222481,
+            "hostname": "DESKTOP-Q3AJ16U",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643811666,
+            "mac": "f0:77:c3:fa:a4:5b",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f195d1a42f8a0c1dee87aa",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643811575,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222481,
+            "hostname": "DESKTOP-KPUDF7K",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643811572,
+            "mac": "f0:77:c3:fb:e0:23",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f19611a42f8a0c1dee87ae",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812294,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222545,
+            "hostname": "DESKTOP-L310RB1",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812278,
+            "mac": "f0:77:c3:fd:61:5a",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f19619a42f8a0c1dee87b1",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812173,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222553,
+            "hostname": "DESKTOP-6R7S3J8",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812151,
+            "mac": "f0:77:c3:ed:f9:86",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f19651a42f8a0c1dee87b5",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812097,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222609,
+            "hostname": "DESKTOP-63IPBV3",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812089,
+            "mac": "f0:77:c3:fd:25:82",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f1968fa42f8a0c1dee87b9",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643811960,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222671,
+            "hostname": "DESKTOP-HV7J2CJ",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643811930,
+            "mac": "f0:77:c3:ef:b4:10",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f1968fa42f8a0c1dee87bb",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812354,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222671,
+            "hostname": "DESKTOP-8E52M3E",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812341,
+            "mac": "f0:77:c3:ed:ea:e0",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f1969da42f8a0c1dee87bf",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812266,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222685,
+            "hostname": "DESKTOP-1577M79",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812245,
+            "mac": "f0:77:c3:fc:15:ed",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f196fea42f8a0c1dee87d9",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643811794,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643222782,
+            "hostname": "DESKTOP-6MD7KKP",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643811767,
+            "mac": "f0:77:c3:fc:96:bc",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f1b17ca42f8a0c1dee8cd4",
+            "dev_cat": 12,
+            "dev_family": 12,
+            "dev_id": 221,
+            "dev_vendor": 16882,
+            "device_name": "HP iLO Agent",
+            "disconnect_timestamp": 1643325668,
+            "fingerprint_engine_version": "",
+            "fingerprint_source": 2,
+            "first_seen": 1643229564,
+            "fw_version": "",
+            "hostname": "ILO2M212403N1",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1643325320,
+            "mac": "b4:7a:f1:dc:86:e0",
+            "oui": "Hewlett Packard Enterprise",
+            "score": 83,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f1bdd7a42f8a0c1dee8f02",
+            "confidence": 99,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2807,
+            "dev_vendor": 25,
+            "disconnect_timestamp": 1643405108,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643232727,
+            "hostname": "DESKTOP-A5G6B5Q",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1643404788,
+            "mac": "a4:bb:6d:e3:3f:c9",
+            "os_name": 18,
+            "oui": "Dell Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f2d622a42f8a0c1deebfa0",
+            "confidence": 90,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2663,
+            "dev_vendor": 43,
+            "disconnect_timestamp": 1643812640,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1643304482,
+            "hostname": "RickRucker-Desktop",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1643812634,
+            "mac": "64:6e:e0:5b:8c:9f",
+            "os_name": 18,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f31d94a42f8a0c1deece71",
+            "dev_cat": 3,
+            "dev_family": 3,
+            "dev_id": 78148,
+            "dev_vendor": 20225,
+            "device_name": "UniFi VoIP",
+            "disconnect_timestamp": 1643810948,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1643322772,
+            "fw_version": "1.0.15",
+            "hostname": "",
+            "icon_filename": "a685746f-cd8f-4453-90c7-68a3ba9c1953",
+            "icon_resolutions": [
+                [
+                    129,
+                    129
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    101,
+                    101
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1643810636,
+            "mac": "78:45:58:fb:8e:31",
+            "oui": "",
+            "product_line": "unifi-network",
+            "product_model": "Dream Machine Pro",
+            "score": 37,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "61f31d9aa42f8a0c1deece74",
+            "disconnect_timestamp": 1643323568,
+            "first_seen": 1643322778,
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1643323227,
+            "mac": "7a:45:58:fb:8e:29",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62012393a42f8a745feed492",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1644243217,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1644241811,
+            "hostname": "SM-R870",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1644243190,
+            "mac": "0e:8a:28:8b:62:3d",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62042b8aa42f8a745fef4ae9",
+            "confidence": 100,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 4625,
+            "dev_vendor": 320,
+            "disconnect_timestamp": 1650049122,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 5,
+            "first_seen": 1644440458,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650049119,
+            "mac": "56:92:a9:b2:8e:3e",
+            "os_name": 24,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6206ada1a42f8a745fefaba4",
+            "disconnect_timestamp": 1644605443,
+            "first_seen": 1644604833,
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1644605092,
+            "mac": "26:a7:ff:63:ef:bb",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6207fd07a42f8a745fefe5d9",
+            "disconnect_timestamp": 1644690753,
+            "first_seen": 1644690695,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1644690728,
+            "mac": "4a:40:ce:be:fd:7d",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6209e813a42f8a695a9b1713",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1644816402,
+            "hostname": "uvp executive-44d9e7058081",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1644816402,
+            "mac": "44:d9:e7:05:80:81",
+            "os_name": 56,
+            "oui": "Ubiquiti Inc.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62102c47a42f8a695a9c0f8c",
+            "disconnect_timestamp": 1645227405,
+            "first_seen": 1645227079,
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1645227079,
+            "mac": "e6:1a:bc:1e:42:19",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "621920b9a42f8a695a9d66cf",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645815525,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645813945,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645815187,
+            "mac": "80:5e:0c:4b:b5:c9",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "621923dda42f8a695a9d672f",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645815825,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645814749,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645815509,
+            "mac": "80:5e:0c:4b:b5:11",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62192611a42f8a695a9d6761",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645816185,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645815313,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645815830,
+            "mac": "80:5e:0c:4b:b5:cd",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62192737a42f8a695a9d679b",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645817445,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645815607,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645817090,
+            "mac": "80:5e:0c:4b:b3:cd",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62192c2ca42f8a695a9d6907",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645817745,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645816876,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645817440,
+            "mac": "80:5e:0c:4b:b5:0a",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62192da1a42f8a695a9d6920",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645818465,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645817249,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645818147,
+            "mac": "80:5e:0c:4b:bd:86",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6219303ba42f8a695a9d698d",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645818705,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645817915,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645818401,
+            "mac": "80:5e:0c:4b:bd:9d",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62193143a42f8a695a9d69c3",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1645819005,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645818179,
+            "hostname": "MP54",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1645818692,
+            "mac": "80:5e:0c:4b:b5:e7",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62193264a42f8a695a9d69fc",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1646150087,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1645818468,
+            "hostname": "MP58",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1646149756,
+            "mac": "80:5e:0c:51:2d:79",
+            "os_name": 3,
+            "oui": "Yealink(Xiamen) Network Technology Co.,Ltd.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "621afcada42f8a695a9dab82",
+            "disconnect_timestamp": 1645936425,
+            "first_seen": 1645935789,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1645936082,
+            "mac": "b2:c3:19:c4:98:7a",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6222473aa42f8a16884136c0",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1646413970,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1646413626,
+            "hostname": "Z3351S",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1646413952,
+            "mac": "60:14:66:8f:27:ff",
+            "os_name": 56,
+            "oui": "zte corporation",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "622632e6f728fa0bcda5437a",
+            "dev_cat": 4,
+            "dev_family": 8135,
+            "dev_id": 8181,
+            "dev_vendor": 20225,
+            "device_name": "Ubiquiti WAP",
+            "disconnect_timestamp": 1646674834,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1646670566,
+            "fw_version": "1.0.15",
+            "hostname": "",
+            "icon_filename": "a685746f-cd8f-4453-90c7-68a3ba9c1953",
+            "icon_resolutions": [
+                [
+                    129,
+                    129
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    101,
+                    101
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1646674801,
+            "mac": "d0:21:f9:66:b4:1f",
+            "oui": "Ubiquiti Inc.",
+            "product_line": "unifi-network",
+            "product_model": "Dream Machine Pro",
+            "score": 22,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6227e348f728fa0bcda58b18",
+            "disconnect_timestamp": 1646781907,
+            "first_seen": 1646781256,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1646781550,
+            "mac": "f2:3f:47:48:aa:5a",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6228b2acf728fa0bcda5a604",
+            "disconnect_timestamp": 1646838893,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1646834347,
+            "fw_version": "1.0.15",
+            "hostname": "",
+            "icon_filename": "a685746f-cd8f-4453-90c7-68a3ba9c1953",
+            "icon_resolutions": [
+                [
+                    129,
+                    129
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    101,
+                    101
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1646838859,
+            "mac": "d0:21:f9:66:a7:9b",
+            "oui": "Ubiquiti Inc.",
+            "product_line": "unifi-network",
+            "product_model": "Dream Machine Pro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6228c9e3f728fa0bcda5aa27",
+            "disconnect_timestamp": 1646842621,
+            "fingerprint_engine_version": "0.0.0",
+            "fingerprint_source": 4,
+            "first_seen": 1646840291,
+            "fw_version": "1.0.15",
+            "hostname": "",
+            "icon_filename": "a685746f-cd8f-4453-90c7-68a3ba9c1953",
+            "icon_resolutions": [
+                [
+                    129,
+                    129
+                ],
+                [
+                    257,
+                    257
+                ],
+                [
+                    25,
+                    25
+                ],
+                [
+                    101,
+                    101
+                ],
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1646842590,
+            "mac": "d0:21:f9:66:af:93",
+            "oui": "Ubiquiti Inc.",
+            "product_line": "unifi-network",
+            "product_model": "Dream Machine Pro",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "622e13aaf728fa0bcda6711b",
+            "confidence": 99,
+            "dev_cat": 44,
+            "dev_family": 9,
+            "dev_id": 2284,
+            "dev_vendor": 97,
+            "disconnect_timestamp": 1647187044,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1647186858,
+            "hostname": "android-d561b7be199595a7",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1647187041,
+            "mac": "38:30:f9:66:93:30",
+            "os_name": 56,
+            "oui": "LG Electronics (Mobile Communications)",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6230db8cf728fa0bcda6e073",
+            "disconnect_timestamp": 1647370327,
+            "first_seen": 1647369100,
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1647369968,
+            "mac": "2a:7c:20:33:1d:fa",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6230fb6cf728fa0bcda6e493",
+            "disconnect_timestamp": 1647377537,
+            "first_seen": 1647377260,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1647377516,
+            "mac": "3e:cf:32:70:66:99",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62322245f728fa0bcda70d0f",
+            "disconnect_timestamp": 1647452752,
+            "first_seen": 1647452741,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1647452741,
+            "mac": "84:eb:18:e3:80:10",
+            "oui": "Texas Instruments",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6238af8ff728fa0bcda8162e",
+            "disconnect_timestamp": 1647882727,
+            "first_seen": 1647882127,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1647882422,
+            "mac": "16:07:cc:26:fb:0d",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "623b4557f728fa0bcda87a12",
+            "disconnect_timestamp": 1648051555,
+            "first_seen": 1648051543,
+            "hostname": "A6L-G",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1648051543,
+            "mac": "68:a4:7d:03:40:9f",
+            "oui": "Sun Cupid Technology (HK) LTD",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6245d84bf728fa0bcdaa1775",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1650029417,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1648744523,
+            "hostname": "Galaxy-S20-5G",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1650029395,
+            "mac": "3e:9e:54:b2:e8:a6",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "624c8b80f728fa5ff5951209",
+            "disconnect_timestamp": 1649183884,
+            "first_seen": 1649183616,
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1649183877,
+            "mac": "88:c2:55:50:64:d3",
+            "oui": "Texas Instruments",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "624f0424f728fa5ff5956dc8",
+            "confidence": 60,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2664,
+            "dev_vendor": 66,
+            "disconnect_timestamp": 1649348515,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1649345572,
+            "hostname": "",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649348495,
+            "mac": "00:0c:43:26:60:00",
+            "os_name": 3,
+            "oui": "Ralink Technology, Corp.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62544b77f728fa5ff596460a",
+            "confidence": 99,
+            "dev_cat": 1,
+            "dev_family": 13,
+            "dev_id": 2810,
+            "dev_vendor": 94,
+            "disconnect_timestamp": 1649704498,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1649691511,
+            "hostname": "DESKTOP-Q7CGFH3",
+            "is_guest": false,
+            "is_wired": true,
+            "last_seen": 1649704162,
+            "mac": "7c:10:c9:d0:88:b8",
+            "os_name": 18,
+            "oui": "ASUSTek COMPUTER INC.",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62571e82f728fa5ff596ba60",
+            "confidence": 60,
+            "dev_cat": 44,
+            "dev_family": 22,
+            "dev_id": 1681,
+            "dev_vendor": 7,
+            "disconnect_timestamp": 1649878367,
+            "fingerprint_engine_version": "1.0.2",
+            "fingerprint_source": 0,
+            "first_seen": 1649876610,
+            "hostname": "Josh-s-S21-Ultra",
+            "is_guest": false,
+            "is_wired": false,
+            "last_seen": 1649878346,
+            "mac": "4e:de:44:ca:46:48",
+            "os_name": 56,
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "6257752df728fa5ff596c9f4",
+            "disconnect_timestamp": 1649899126,
+            "first_seen": 1649898797,
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1649899125,
+            "mac": "0e:39:ac:38:f8:ec",
+            "oui": "",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        },
+        {
+            "_id": "62583272f728fa5ff596e422",
+            "dev_cat": 16879,
+            "dev_family": 16879,
+            "dev_id": 33449,
+            "dev_vendor": 16893,
+            "device_name": "Apple OS",
+            "disconnect_timestamp": 1650046316,
+            "fingerprint_engine_version": "",
+            "fingerprint_source": 2,
+            "first_seen": 1649947250,
+            "fw_version": "",
+            "hostname": "",
+            "is_guest": true,
+            "is_wired": false,
+            "last_seen": 1650046290,
+            "mac": "fa:80:25:f6:fb:64",
+            "oui": "",
+            "score": 87,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "usergroup_id": ""
+        }
+    ],
+    "meta": {
+        "rc": "ok"
+    }
+}

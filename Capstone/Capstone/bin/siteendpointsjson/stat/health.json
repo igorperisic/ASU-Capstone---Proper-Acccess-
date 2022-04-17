@@ -1,0 +1,89 @@
+{
+    "data": [
+        {
+            "num_adopted": 2,
+            "num_ap": 2,
+            "num_disabled": 0,
+            "num_disconnected": 0,
+            "num_guest": 0,
+            "num_iot": 0,
+            "num_pending": 0,
+            "num_user": 6,
+            "rx_bytes-r": 506,
+            "status": "ok",
+            "subsystem": "wlan",
+            "tx_bytes-r": 126
+        },
+        {
+            "gateways": [],
+            "gw_mac": "74:ac:b9:3e:e7:53",
+            "gw_name": "SpencerFi-HomeBase",
+            "gw_system-stats": {
+                "cpu": "28.8",
+                "mem": "82.5",
+                "uptime": "3500951"
+            },
+            "gw_version": "1.11.4.3940",
+            "isp_name": "Spectrum",
+            "isp_organization": "TWC-10796-MIDWEST",
+            "nameservers": [],
+            "netmask": "255.255.240.0",
+            "num_adopted": 1,
+            "num_disconnected": 0,
+            "num_gw": 1,
+            "num_pending": 0,
+            "num_sta": 10,
+            "rx_bytes-r": 3355,
+            "status": "ok",
+            "subsystem": "wan",
+            "tx_bytes-r": 6764,
+            "uptime_stats": {
+                "WAN": {
+                    "availability": 100.0,
+                    "latency_average": 34,
+                    "time_period": 86400
+                },
+                "WAN2": {
+                    "downtime": 3500910
+                }
+            },
+            "wan_ip": "174.100.165.160"
+        },
+        {
+            "drops": 5,
+            "gw_mac": "74:ac:b9:3e:e7:53",
+            "latency": 34,
+            "rx_bytes-r": 3355,
+            "speedtest_lastrun": 0,
+            "speedtest_ping": 0,
+            "speedtest_status": "Idle",
+            "status": "ok",
+            "subsystem": "www",
+            "tx_bytes-r": 6764,
+            "uptime": 783349,
+            "xput_down": 0.0,
+            "xput_up": 0.0
+        },
+        {
+            "lan_ip": null,
+            "num_adopted": 4,
+            "num_disconnected": 1,
+            "num_guest": 0,
+            "num_iot": 0,
+            "num_pending": 0,
+            "num_sw": 3,
+            "num_user": 4,
+            "rx_bytes-r": 4403,
+            "status": "error",
+            "subsystem": "lan",
+            "tx_bytes-r": 96909
+        },
+        {
+            "status": "unknown",
+            "subsystem": "vpn"
+        }
+    ],
+    "meta": {
+        "rc": "ok"
+    }
+}

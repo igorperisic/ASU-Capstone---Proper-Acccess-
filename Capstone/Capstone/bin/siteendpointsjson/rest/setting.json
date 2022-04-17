@@ -1,0 +1,382 @@
+{
+    "data": [
+        {
+            "_id": "5ed7f1c93a701f025fcfabfa",
+            "hostname": "ubnt",
+            "key": "super_identity",
+            "name": "SpencerFi-HomeBase"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfabfb",
+            "analytics_disapproved_for": "5.12.71",
+            "autobackup_cron_expr": "0 4 * * 2",
+            "autobackup_days": 90,
+            "autobackup_enabled": true,
+            "autobackup_max_files": 7,
+            "autobackup_timezone": "America/New_York",
+            "data_retention_setting_preference": "manual",
+            "data_retention_time_enabled": true,
+            "data_retention_time_in_hours_for_5minutes_scale": 24,
+            "data_retention_time_in_hours_for_daily_scale": 2160,
+            "data_retention_time_in_hours_for_hourly_scale": 720,
+            "data_retention_time_in_hours_for_monthly_scale": 8760,
+            "data_retention_time_in_hours_for_others": 2160,
+            "discoverable": false,
+            "enable_analytics": false,
+            "key": "super_mgmt",
+            "live_updates": "auto",
+            "minimum_usable_hd_space": 500,
+            "multiple_sites_enabled": false,
+            "time_series_per_client_stats_enabled": true
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac11",
+            "fingerbank_key": "4a461f2f453d8f94b373f92a74d9a116b109fd06",
+            "key": "super_fingerbank"
+        },
+        {
+            "_id": "5f89dc4db3a3b406858065bd",
+            "key": "super_mail",
+            "provider": "smtp"
+        },
+        {
+            "_id": "5f89dc4db3a3b406858065be",
+            "enabled": false,
+            "host": "",
+            "key": "super_smtp",
+            "port": 465,
+            "sender": "",
+            "use_auth": false,
+            "use_sender": false,
+            "use_ssl": true,
+            "username": "",
+            "x_password": ""
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfabfc",
+            "enabled": true,
+            "key": "connectivity",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "uplink_type": "gateway",
+            "x_mesh_essid": "vwire-4b9c7e4d8981fd04",
+            "x_mesh_psk": "ec8a6438d5a48cb315e3bdf40a9b8a23"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfabfd",
+            "enabled": true,
+            "key": "element_adopt",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "x_element_essid": "element-67ef7930b69dbbd5",
+            "x_element_psk": "f1fbcc163b7b9f633cd63906792d5cc5"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfabfe",
+            "auth": "hotspot",
+            "ec_enabled": false,
+            "expire": 10080,
+            "facebook_enabled": false,
+            "facebook_wifi_gw_name": "Default",
+            "google_enabled": false,
+            "key": "guest_access",
+            "password_enabled": true,
+            "payment_enabled": false,
+            "portal_customized": false,
+            "portal_customized_bg_color": "#233041",
+            "portal_customized_bg_image_enabled": true,
+            "portal_customized_bg_image_tile": false,
+            "portal_customized_box_color": "#ffffff",
+            "portal_customized_box_link_color": "#1379b7",
+            "portal_customized_box_opacity": 90,
+            "portal_customized_box_text_color": "#000000",
+            "portal_customized_button_color": "#d11a1a",
+            "portal_customized_button_text_color": "#ffffff",
+            "portal_customized_languages": [
+                "en"
+            ],
+            "portal_customized_link_color": "#d11a1a",
+            "portal_customized_logo_enabled": true,
+            "portal_customized_logo_filename": "5f89dbcfb3a3b406858065b3",
+            "portal_customized_text_color": "#ffffff",
+            "portal_customized_title": "Proper Access Guest WiFi",
+            "portal_customized_tos": "Terms of Use\n\nBy accessing the wireless network, you acknowledge that you're of legal age, you have read and understood and agree to be bound by this agreement.\n\nThe wireless network service is provided by the property owners and is completely at their discretion. Your access to the network may be blocked, suspended, or terminated at any time for any reason.\n\nYou agree not to use the wireless network for any purpose that is unlawful and take full responsibility of your acts.\n\nThe wireless network is provided \"as is\" without warranties of any kind, either expressed or implied.",
+            "portal_customized_tos_enabled": true,
+            "portal_customized_welcome_text": "Welcome to ultra fast, super secure, free guest WiFi powered by Proper Access.",
+            "portal_customized_welcome_text_enabled": true,
+            "portal_customized_welcome_text_position": "above_boxes",
+            "portal_enabled": true,
+            "portal_use_hostname": false,
+            "radius_auth_type": "mschapv2",
+            "radius_enabled": false,
+            "redirect_enabled": false,
+            "redirect_https": false,
+            "redirect_to_https": false,
+            "redirect_url": "",
+            "restricted_subnet_1": "192.168.0.0/16",
+            "restricted_subnet_2": "172.16.0.0/12",
+            "restricted_subnet_3": "10.0.0.0/8",
+            "setting_preference": "manual",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "template_engine": "angular",
+            "voucher_enabled": false,
+            "wechat_enabled": false,
+            "x_password": "777Guest"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfabff",
+            "key": "ntp",
+            "ntp_server_1": "0.ubnt.pool.ntp.org",
+            "ntp_server_2": "1.ubnt.pool.ntp.org",
+            "ntp_server_3": "2.ubnt.pool.ntp.org",
+            "ntp_server_4": "3.ubnt.pool.ntp.org",
+            "setting_preference": "auto",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac00",
+            "advanced_feature_enabled": true,
+            "alert_enabled": true,
+            "auto_upgrade": true,
+            "auto_upgrade_hour": 3,
+            "key": "mgmt",
+            "led_enabled": true,
+            "outdoor_mode_enabled": false,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "unifi_idp_enabled": true,
+            "wifiman_enabled": true,
+            "x_api_token": "c2RoRjZTaHBGTlhnRFNYeERUOVVHV3Rzc2RPckx3OVVNMEZqd3I0allOMzNNOFlkR3ZqZEtnYXFEVUhnc3JzZg==",
+            "x_mgmt_key": "4ffaf1430a25dfa41fe5969611e20298",
+            "x_ssh_auth_password_enabled": true,
+            "x_ssh_bind_wildcard": false,
+            "x_ssh_enabled": true,
+            "x_ssh_keys": [],
+            "x_ssh_password": "Ke8FJ9BMgiYjWr1",
+            "x_ssh_sha512passwd": "$6$lMWAkJ.C$KkbQulFS8vzWQC.r6zbVo0yPuhd8658YRC6NKmjvs5XSkSYLdckN.Ap8Q.OHVNLBrz02raPp.s4lic4UC8ZN4.",
+            "x_ssh_username": "lUBew6B"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac01",
+            "enabled": true,
+            "fingerprintingEnabled": true,
+            "key": "dpi",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac02",
+            "brightness": 80,
+            "enabled": true,
+            "idle_timeout": 300,
+            "key": "lcm",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "sync": true,
+            "touch_event": true
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac03",
+            "arp_cache_base_reachable": 600,
+            "arp_cache_timeout": "custom",
+            "broadcast_ping": false,
+            "ftp_module": true,
+            "gre_module": true,
+            "h323_module": true,
+            "icmp_timeout": 30,
+            "key": "usg",
+            "mss_clamp": "auto",
+            "offload_accounting": true,
+            "offload_l2_blocking": true,
+            "offload_sch": true,
+            "other_timeout": 600,
+            "pptp_module": true,
+            "receive_redirects": false,
+            "send_redirects": true,
+            "sip_module": false,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "syn_cookies": true,
+            "tcp_close_timeout": 10,
+            "tcp_close_wait_timeout": 60,
+            "tcp_established_timeout": 7440,
+            "tcp_fin_wait_timeout": 120,
+            "tcp_last_ack_timeout": 30,
+            "tcp_syn_recv_timeout": 60,
+            "tcp_syn_sent_timeout": 120,
+            "tcp_time_wait_timeout": 120,
+            "tftp_module": true,
+            "timeout_setting_preference": "auto",
+            "udp_other_timeout": 30,
+            "udp_stream_timeout": 180,
+            "upnp_enabled": false,
+            "upnp_nat_pmp_enabled": true,
+            "upnp_secure_mode": true
+        },
+        {
+            "_id": "5ed7f1c93a701f025fcfac04",
+            "dhcp_snoop": true,
+            "key": "usw",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f89c6403a701f025fcfac22",
+            "enabled": true,
+            "key": "network_optimization",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f89c6403a701f025fcfac24",
+            "code": "840",
+            "key": "country",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f89c64d3a701f025fcfac25",
+            "download": 900000,
+            "key": "provider_capabilities",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "upload": 35000
+        },
+        {
+            "_id": "5f89c6523a701f025fcfac2a",
+            "key": "locale",
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "timezone": "America/New_York"
+        },
+        {
+            "_id": "5f89dc90b3a3b406858065bf",
+            "dns_filtering": true,
+            "dns_filters": [
+                {
+                    "allowed_sites": [],
+                    "blocked_sites": [],
+                    "blocked_tld": [],
+                    "description": "",
+                    "filter": "none",
+                    "name": "",
+                    "network_id": "6080614dd12cc504df7a4452",
+                    "version": "v4"
+                },
+                {
+                    "allowed_sites": [],
+                    "blocked_sites": [],
+                    "blocked_tld": [],
+                    "description": "",
+                    "filter": "none",
+                    "name": "",
+                    "network_id": "60806466d12cc504df7a46d9",
+                    "version": "v4"
+                },
+                {
+                    "allowed_sites": [],
+                    "blocked_sites": [],
+                    "blocked_tld": [],
+                    "description": "",
+                    "filter": "none",
+                    "name": "",
+                    "network_id": "614899d518a9720bf05e5c75",
+                    "version": "v4"
+                },
+                {
+                    "allowed_sites": [],
+                    "blocked_sites": [],
+                    "blocked_tld": [],
+                    "description": "",
+                    "filter": "none",
+                    "name": "",
+                    "network_id": "61489f1c18a9720bf05e5d1a",
+                    "version": "v4"
+                }
+            ],
+            "enabled_categories": [
+                "emerging-dns",
+                "emerging-exploit",
+                "emerging-malware",
+                "emerging-mobile",
+                "emerging-shellcode",
+                "tor",
+                "emerging-useragent",
+                "emerging-worm"
+            ],
+            "honeypot": [],
+            "ips_mode": "ids",
+            "key": "ips",
+            "last_alert_id": "472253915-2022-01-31T09:54:59.901778-0500",
+            "restrict_ip_addresses": true,
+            "restrict_tor": true,
+            "site_id": "5ed7f1c53a701f025fcfabf6",
+            "suppression": {
+                "alerts": [],
+                "whitelist": []
+            },
+            "utm_token": "1bc2fc4132a8970c5997be5edee4eabb71d860dada4eba9c8699a9a09477bb51c"
+        },
+        {
+            "_id": "5f89dea8b3a3b406858065d6",
+            "key": "rsyslogd",
+            "port": "514",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "5f89dea8b3a3b406858065d7",
+            "enabled": false,
+            "interval": 20,
+            "key": "auto_speedtest",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        },
+        {
+            "_id": "614b28f418a9720bf05eb687",
+            "channels_na": [
+                "36",
+                "40",
+                "44",
+                "48",
+                "52",
+                "56",
+                "60",
+                "64",
+                "100",
+                "104",
+                "108",
+                "112",
+                "116",
+                "120",
+                "124",
+                "128",
+                "132",
+                "136",
+                "140",
+                "144",
+                "149",
+                "153",
+                "157",
+                "161",
+                "165"
+            ],
+            "channels_ng": [
+                "1",
+                "6",
+                "11"
+            ],
+            "cron_expr": "0 10 * * *",
+            "default": true,
+            "enabled": true,
+            "exclude_devices": [],
+            "ht_modes_na": [
+                "20",
+                "40"
+            ],
+            "ht_modes_ng": [
+                "20"
+            ],
+            "key": "radio_ai",
+            "optimize": [
+                "channel"
+            ],
+            "radios": [
+                "ng",
+                "na"
+            ],
+            "setting_preference": "manual",
+            "site_id": "5ed7f1c53a701f025fcfabf6"
+        }
+    ],
+    "meta": {
+        "rc": "ok"
+    }
+}

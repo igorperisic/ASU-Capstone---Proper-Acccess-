@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "anonymous_controller_id": "a9ad5eef-20f1-4698-a928-21fee9af5e32",
+            "autobackup": false,
+            "build": "atag_7.0.25_17292",
+            "console_display_version": "1.11.4",
+            "data_retention_days": 90,
+            "data_retention_time_in_hours_for_5minutes_scale": 24,
+            "data_retention_time_in_hours_for_daily_scale": 2160,
+            "data_retention_time_in_hours_for_hourly_scale": 720,
+            "data_retention_time_in_hours_for_monthly_scale": 8760,
+            "data_retention_time_in_hours_for_others": 2160,
+            "debug_device": "warn",
+            "debug_mgmt": "warn",
+            "debug_sdn": "warn",
+            "debug_setting_preference": "auto",
+            "debug_system": "warn",
+            "default_site_device_auth_password_alert": false,
+            "facebook_wifi_registered": false,
+            "has_webrtc_support": true,
+            "hostname": "ubnt",
+            "https_port": 8443,
+            "image_maps_use_google_engine": false,
+            "inform_port": 8080,
+            "ip_addrs": [
+                "174.100.165.160"
+            ],
+            "is_cloud_console": false,
+            "live_chat": "super-only",
+            "name": "SpencerFi-HomeBase",
+            "override_inform_host": false,
+            "previous_version": "7.0.23",
+            "radius_disconnect_running": false,
+            "sso_app_id": "90waTUDb0XgRdfyYlA7sM5xEGS90S0N3zyFbyo8v",
+            "sso_app_sec": "8IVW8RyPBsqYLsPX9LPMmWMQxHU8E6wV8cX6C6iIlRnLT4bvuuTdLqchzvsq24TnR3nMW37mrNaOT0Z6SEapGoAExfu9hTD7MZHPx8Mew0xWK7ozecSJm5VSYBWOPX9f",
+            "store_enabled": "super-only",
+            "timezone": "America/New_York",
+            "ubnt_device_type": "UDMPRO",
+            "udm_version": "1.11.4.3940",
+            "unifi_go_enabled": false,
+            "unsupported_device_count": 0,
+            "unsupported_device_list": [],
+            "update_available": false,
+            "update_downloaded": false,
+            "uptime": 3500952,
+            "version": "7.0.25"
+        }
+    ],
+    "meta": {
+        "rc": "ok"
+    }
+}
