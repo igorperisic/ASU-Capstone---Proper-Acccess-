@@ -4,6 +4,12 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+a.navbar-brand img {
+    max-height: 57px;
+    width: auto;
+}
+
+
 html {
   font-size: 14px;
 }
@@ -15,4 +21,8 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.border-bottom.box-shadow.mb-3 {
+  background-color: #fc221c;
 }

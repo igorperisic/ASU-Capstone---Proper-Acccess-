@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone", "Capstone\Capsto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapstoneWebApp", "CapstoneWebApp\CapstoneWebApp.csproj", "{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFiParserService", "UniFiParserService\UniFiParserService.csproj", "{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

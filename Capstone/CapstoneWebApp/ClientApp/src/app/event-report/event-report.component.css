@@ -1,0 +1,9 @@
+.filter-buttons div {
+  border: solid;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 1px;
+  padding: 2px 2px 2px 2px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
