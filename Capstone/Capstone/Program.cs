@@ -12,6 +12,7 @@ namespace Capstone
     {
         static void Main(string[] args)
         {
+            //Michael Testing
             //alarm.json
             StreamReader r = new StreamReader("../siteendpointsjson/stat/alarm.json");
             var alarmJson = r.ReadToEnd();

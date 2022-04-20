@@ -9,3 +9,13 @@ C:\Users\IGorp\Desktop\Capstone\Capstone\Capstone\obj\Debug\Capstone.pdb
 C:\Users\IGorp\Desktop\Capstone\Capstone\Capstone\bin\Debug\Newtonsoft.Json.dll
 C:\Users\IGorp\Desktop\Capstone\Capstone\Capstone\bin\Debug\Newtonsoft.Json.xml
 C:\Users\IGorp\Desktop\Capstone\Capstone\Capstone\obj\Debug\Capstone.csproj.CopyComplete
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\bin\Debug\Capstone.exe.config
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\bin\Debug\Capstone.exe
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\bin\Debug\Capstone.pdb
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\obj\Debug\Capstone.csproj.AssemblyReference.cache
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\obj\Debug\Capstone.csproj.CoreCompileInputs.cache
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\obj\Debug\Capstone.csproj.CopyComplete
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\obj\Debug\Capstone.exe
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\Capstone\obj\Debug\Capstone.pdb
