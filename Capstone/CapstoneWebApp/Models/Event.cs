@@ -7,6 +7,10 @@ namespace CapstoneWebApp.Models
     {
         public class EventData
         {
+            public string _id { get; set; }
+            public string ap { get; set; }
+            public string ap_displayName { get; set; }
+            public string site_id { get; set; }
             public string ap_model { get; set; }
             public string ap_name { get; set; }
             public long bytes { get; set; }

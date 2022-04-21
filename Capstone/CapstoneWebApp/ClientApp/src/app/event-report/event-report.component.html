@@ -1,6 +1,15 @@
 <h2>Proper Access Network Event Report</h2>
 <div class="row filter-buttons">
-  <div class="col-sm-3">
+
+    <p>
+      <select class="form-control" name="selectedEvent" id="selectEvent" (change)="change($event.target.value)">
+        <option [ngValue]="null" disabled>Select event</option>
+        <option *ngFor="let event of events" [ngValue]="event.id">{{event.key}}</option>
+      </select>
+
+    </p>
+
+  <!--<div class="col-sm-3">
     EVT_LU_Connected
   </div>
   <div class="col-sm-3">
@@ -32,5 +41,6 @@
   </div>
   <div class="col-sm-3">
     EVT_AP_Upgraded
-  </div>
+  </div>-->
 </div>
+

@@ -1,0 +1,10 @@
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\bin\Debug\netcoreapp3.1\JSONParser.deps.json
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\bin\Debug\netcoreapp3.1\JSONParser.dll
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\bin\Debug\netcoreapp3.1\JSONParser.pdb
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.csproj.AssemblyReference.cache
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.AssemblyInfoInputs.cache
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.AssemblyInfo.cs
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.csproj.CoreCompileInputs.cache
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.dll
+C:\Users\Michael\OneDrive\Documents\Capstone\App\Capstone\JSONParser\obj\Debug\netcoreapp3.1\JSONParser.pdb
