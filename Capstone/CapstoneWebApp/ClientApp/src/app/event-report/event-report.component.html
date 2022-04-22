@@ -3,20 +3,39 @@
   <option [ngValue]="null" disabled>Select event</option>
   <option *ngFor="let event of events" [ngValue]="event.id">{{event.key}}</option>
 </select>
-<table mdbTable *ngIf="tableData">
-  <thead class="text-white">
-    <tr>
-      <th *ngFor="let head of headers" scope="col">{{ head }} </th>
+<div *ngIf="currentSelect" class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+    <!-- Position Column -->
+    <tr style="display:none!important">
+      <ng-container matColumnDef="Position">
+        <th mat-header-cell *matHeaderCellDef> Position </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="Time">
+        <th mat-header-cell *matHeaderCellDef> Time </th>
+        <td mat-cell *matCellDef="let element"> {{element.time}} </td>
+      </ng-container>
+
+      <!-- Weight Column -->
+      <ng-container matColumnDef="Message">
+        <th mat-header-cell *matHeaderCellDef> Message </th>
+        <td mat-cell *matCellDef="let element"> {{element.message}} </td>
+      </ng-container>
+
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="Advanced">
+        <th mat-header-cell *matHeaderCellDef> Advanced </th>
+        <td mat-cell *matCellDef="let element"> {{element.eventData}} </td>
+      </ng-container>
     </tr>
-  </thead>
-  <tbody>
-    <tr mdbTableCol *ngFor="let el of tableData">
-      <th scope="row">{{ el.id }}</th>
-      <td>{{ el.time }}</td>
-      <td>{{ el.message }}</td>
-      <td>{{ el.eventData }}</td>
-    </tr>
-  </tbody>
-</table>
+    <tr mat-header-row *matHeaderRowDef="headers"></tr>
+    <tr mat-row *matRowDef="let row; columns: headers;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
 
 

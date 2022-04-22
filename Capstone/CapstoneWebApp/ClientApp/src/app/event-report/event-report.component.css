@@ -8,7 +8,24 @@
   text-align: center;
 }
 
-thead {
+
+table {
+    width: 100%;
+}
+
+th {
   background-color: #fc221c;
   text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+
+td {
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+select {
+    margin-bottom: 20px;
 }

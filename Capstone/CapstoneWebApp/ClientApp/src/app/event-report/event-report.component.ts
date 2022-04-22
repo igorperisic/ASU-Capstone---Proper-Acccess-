@@ -1,6 +1,7 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { MatPaginator } from '@angular/material/paginator';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-event-report',
@@ -8,10 +9,17 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./event-report.component.css']
 })
 export class EventReportComponent implements OnInit {
-
+  headers: string[] = ['Position', 'Time', 'Message', 'Advanced'];
   public data: EventData[];
-  public tableData: TableData[];
   public currentSelect: string;
+  private paginator: MatPaginator;
+  dataSource = new MatTableDataSource<TableData>();
+
+  @ViewChild(MatPaginator, { static: false }) set matPaginator(mp: MatPaginator) {
+    this.paginator = mp;
+    this.setDataSourceAttributes();
+  }
+  //@ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   events = [
     { id: 1, key: "EVT_AD_BackupCreated" },
     { id: 2, key: "EVT_AP_AutoReadopted" },
@@ -30,6 +38,7 @@ export class EventReportComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.dataSource.paginator = this.paginator;
   }
 
   change(key: string) {
@@ -49,10 +58,12 @@ export class EventReportComponent implements OnInit {
         count = count + 1;
         tempData.push(myObj);
       });
-    this.tableData = tempData;
-  }
+    this.dataSource = new MatTableDataSource<TableData>(tempData);
 
-  headers = ['Position', 'Time', 'Message', 'Advanced'];
+  }
+  setDataSourceAttributes() {
+    this.dataSource.paginator = this.paginator;
+  }
 }
 
 interface TableData {
