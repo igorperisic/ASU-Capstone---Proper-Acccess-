@@ -7,3 +7,8 @@
   margin: 5px 5px 5px 5px;
   text-align: center;
 }
+
+thead {
+  background-color: #fc221c;
+  text-align: center;
+}

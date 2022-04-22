@@ -34,10 +34,42 @@ namespace Capstone
             Event eventParser = JsonConvert.DeserializeObject<Event>(eventjson);
 
             //Test for 4 the 4 JSON
+            /*
             Console.WriteLine("Alarm Message: " + alarmParser.data[0].msg);
             Console.WriteLine("Device Basic Name: " + deviceBasicParser.data[0].name);
             Console.WriteLine("Health Status: " + healthParser.data[0].status);
-            Console.WriteLine("Event Bytes: " + eventParser.data[241].bytes);
+            Console.WriteLine("Event Bytes: " + eventParser.data[241].key);
+            */
+
+            string key = "EVT_WU_Disconnected";
+            
+            IEnumerable<EventData> myQuery =
+                from ep in eventParser.data
+                where ep.key == key
+                select ep;
+            
+            foreach(EventData e in myQuery)
+            {
+                Console.WriteLine("Key: {0}", e.key);
+                Console.WriteLine("Ap Model: {0}", e.ap_model);
+                Console.WriteLine("Ap Names: {0}", e.ap_name);
+                Console.WriteLine("Bytes: {0}",e.bytes);
+                Console.WriteLine("Datetime: {0}", e.datetime);
+                Console.WriteLine("Duration: {0}", e.duration);
+                Console.WriteLine("Hostname: {0}", e.hostname);
+                Console.WriteLine("Is Negative: {0}", e.is_negative);
+                Console.WriteLine("Msg: {0}", e.msg);
+                Console.WriteLine("ssid: {0}", e.ssid);
+                Console.WriteLine("Subsystem: {0}", e.subsystem);
+                Console.WriteLine("TIme: {0}", e.time);
+                Console.WriteLine("User: {0}", e.user);
+                Console.WriteLine("Channel: {0}", e.channel);
+                Console.WriteLine("Radio: {0}", e.radio);
+                Console.WriteLine("Channel From: {0}", e.channel_from);
+                Console.WriteLine("Channel To: {0}", e.channel_to);
+                Console.WriteLine("\n");
+            }
+
             Console.ReadLine();
             
 
