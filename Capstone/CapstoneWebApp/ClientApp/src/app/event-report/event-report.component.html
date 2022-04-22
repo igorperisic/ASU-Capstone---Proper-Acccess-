@@ -1,46 +1,22 @@
 <h2>Proper Access Network Event Report</h2>
-<div class="row filter-buttons">
+<select class="form-control" name="selectedEvent" id="selectEvent" (change)="change($event.target.value)">
+  <option [ngValue]="null" disabled>Select event</option>
+  <option *ngFor="let event of events" [ngValue]="event.id">{{event.key}}</option>
+</select>
+<table mdbTable *ngIf="tableData">
+  <thead class="text-white">
+    <tr>
+      <th *ngFor="let head of headers" scope="col">{{ head }} </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr mdbTableCol *ngFor="let el of tableData">
+      <th scope="row">{{ el.id }}</th>
+      <td>{{ el.time }}</td>
+      <td>{{ el.message }}</td>
+      <td>{{ el.eventData }}</td>
+    </tr>
+  </tbody>
+</table>
 
-    <p>
-      <select class="form-control" name="selectedEvent" id="selectEvent" (change)="change($event.target.value)">
-        <option [ngValue]="null" disabled>Select event</option>
-        <option *ngFor="let event of events" [ngValue]="event.id">{{event.key}}</option>
-      </select>
-
-    </p>
-
-  <!--<div class="col-sm-3">
-    EVT_LU_Connected
-  </div>
-  <div class="col-sm-3">
-    EVT_WU_Connected
-  </div>
-  <div class="col-sm-3">
-    EVT_WU_Disconnected
-  </div>
-  <div class="col-sm-3">
-    EVT_WU_RoamRadio
-  </div>
-  <div class="col-sm-3">
-    EVT_GW_WANTransition
-  </div>
-  <div class="col-sm-3">
-    EVT_SW_AutoReadopted
-  </div>
-  <div class="col-sm-3">
-    EVT_AP_AutoReadopted
-  </div>
-  <div class="col-sm-3">
-    EVT_AD_BackupCreated
-  </div>
-  <div class="col-sm-3">
-    EVT_SW_Upgraded
-  </div>
-  <div class="col-sm-3">
-    EVT_SW_Lost_Contact
-  </div>
-  <div class="col-sm-3">
-    EVT_AP_Upgraded
-  </div>-->
-</div>
 

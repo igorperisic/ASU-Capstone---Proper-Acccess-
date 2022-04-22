@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { FormBuilder, FormGroup } from '@angular/forms';
+
 
 @Component({
   selector: 'app-event-report',
@@ -10,6 +10,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class EventReportComponent implements OnInit {
 
   public data: EventData[];
+  public tableData: TableData[];
   public currentSelect: string;
   events = [
     { id: 1, key: "EVT_AD_BackupCreated" },
@@ -27,12 +28,6 @@ export class EventReportComponent implements OnInit {
 
   constructor(private http: HttpClient) {
   }
-  //constructor(http: HttpClient) {
-  //  http.get<EventData[]>(location.origin + '/api/Events/GetEvent/EVT_WU_Disconnected').subscribe(result => {
-  //    console.log(result)
-  //    this.data = result;
-  //  }, error => console.error(error));
-  //}
 
   ngOnInit() {
   }
@@ -40,11 +35,31 @@ export class EventReportComponent implements OnInit {
   change(key: string) {
     this.currentSelect = key;
     this.http.get<EventData[]>(location.origin + '/api/Events/GetEvent/' + key).subscribe(result => {
-      console.log(result)
       this.data = result;
+      this.updateTable();
     }, error => console.error(error));
   }
 
+  updateTable() {
+    var count: number = 1;
+    var tempData: TableData[] = new Array();
+    this.data.forEach(
+      function (value) {
+        let myObj:TableData = { id: count, time: value.datetime, message: value.msg, eventData: value };
+        count = count + 1;
+        tempData.push(myObj);
+      });
+    this.tableData = tempData;
+  }
+
+  headers = ['Position', 'Time', 'Message', 'Advanced'];
+}
+
+interface TableData {
+  id: number;
+  time: string;
+  message: string;
+  eventData: EventData;
 }
 
 interface EventData {
@@ -68,12 +83,4 @@ interface EventData {
   radio: string;
   channel_from: string;
   channel_t: string;
-}
-
-
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
 }
