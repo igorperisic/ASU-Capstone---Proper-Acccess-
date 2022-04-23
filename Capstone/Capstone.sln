@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapstoneWebApp", "CapstoneW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONParser", "JSONParser\JSONParser.csproj", "{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GetJson", "GetJson\GetJson.pyproj", "{7659FA36-EBF7-43B3-9ABB-51040B150A33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7659FA36-EBF7-43B3-9ABB-51040B150A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7659FA36-EBF7-43B3-9ABB-51040B150A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

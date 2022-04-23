@@ -8,32 +8,32 @@ using System.Threading.Tasks;
 
 namespace JSONParser
 {
-    public class Class1
+    public class JsonParser
     {
         Alarm alarmParser = new Alarm();
         DeviceBasic deviceBasicParser = new DeviceBasic();
         Health healthParser = new Health();
         Event eventParser = new Event();
 
-        public Class1()
+        public JsonParser()
         {
             //alarm.json
-            StreamReader r = new StreamReader("../JSONParser/bin/siteendpointsjson/stat/alarm.json");
+            StreamReader r = new StreamReader("../GetJson/stat/alarm.json");
             var alarmJson = r.ReadToEnd();
             alarmParser = JsonConvert.DeserializeObject<Alarm>(alarmJson);
 
             //device-basic.json
-            r = new StreamReader("../JSONParser/bin/siteendpointsjson/stat/device-basic.json");
+            r = new StreamReader("../GetJson/stat/device-basic.json");
             var deviceBasicjson = r.ReadToEnd();
             deviceBasicParser = JsonConvert.DeserializeObject<DeviceBasic>(deviceBasicjson);
 
             //health.json
-            r = new StreamReader("../JSONParser/bin/siteendpointsjson/stat/health.json");
+            r = new StreamReader("../GetJson/stat/health.json");
             var healthjson = r.ReadToEnd();
             healthParser = JsonConvert.DeserializeObject<Health>(healthjson);
 
             //event.json
-            r = new StreamReader("../JSONParser/bin/siteendpointsjson/stat/event.json");
+            r = new StreamReader("../GetJson/stat/event.json");
             var eventjson = r.ReadToEnd();
             eventParser = JsonConvert.DeserializeObject<Event>(eventjson);
         }

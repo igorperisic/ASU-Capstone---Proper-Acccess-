@@ -39,7 +39,7 @@ namespace CapstoneWebApp.Controllers
         [HttpGet("GetEvent/{ekey}")]
         public IEnumerable<Event.EventData> GetEvent(string ekey)
         {
-            JSONParser.Class1 jsonParser = new JSONParser.Class1();
+            JSONParser.JsonParser jsonParser = new JSONParser.JsonParser();
 
             if (ekey == "EVT_WU_Disconnected")
             {
