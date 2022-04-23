@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace JSONParser
 {
+
     public class JsonParser
     {
         Alarm alarmParser = new Alarm();
@@ -16,8 +16,11 @@ namespace JSONParser
         Event eventParser = new Event();
         Recommendation.Sta staParser = new Recommendation.Sta();
 
+        //TODO: we might need to async this due to updates in JSON
         public JsonParser()
         {
+
+
             //alarm.json
             StreamReader r = new StreamReader("../GetJson/stat/alarm.json");
             var alarmJson = r.ReadToEnd();
@@ -44,6 +47,7 @@ namespace JSONParser
             staParser = JsonConvert.DeserializeObject<Recommendation.Sta>(stajson);
 
         }
+
 
         public IEnumerable<EventData> EventKeyParser(string key)
         {
@@ -306,7 +310,8 @@ namespace JSONParser
                 public string usergroup_id { get; set; }
 
                 [JsonProperty("wired-rx_bytes")]
-                public int? WiredRxBytes { get; set; }
+                
+                public double? WiredRxBytes { get; set; }
 
                 [JsonProperty("wired-rx_bytes-r")]
                 public int? WiredRxBytesR { get; set; }

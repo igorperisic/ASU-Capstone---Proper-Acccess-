@@ -18,25 +18,6 @@ namespace CapstoneWebApp.Controllers
             return View();
         }
 
-        //        [HttpPost]
-        //        public IActionResult ViewDetails()
-        //        {
-        //            Event.EventData events = new Event.EventData();
-        //events.ap_model
-        //            ViewBag.Name = cd.Name;
-        //            ViewBag.Age = Convert.ToString(cd.Age);
-        //            return View("Index");
-        //        }
-
-        // POST: api/Events/GetEvent/ekey
-
-        [HttpGet("GetNumber")]
-        public int GetNumber()
-        {
-            return 1;
-        }
-
-
         //array with hostname, ip, satisfaction_now, satisfaction_real, signal
         [HttpGet("GetRecommendation/{hostname}")]
         public IEnumerable<Recommendation.Datum> GetEvent(string hostname)

@@ -8,20 +8,20 @@
             "num_guest": 0,
             "num_iot": 0,
             "num_pending": 0,
-            "num_user": 6,
-            "rx_bytes-r": 506,
+            "num_user": 5,
+            "rx_bytes-r": 144,
             "status": "ok",
             "subsystem": "wlan",
-            "tx_bytes-r": 126
+            "tx_bytes-r": 0
         },
         {
             "gateways": [],
             "gw_mac": "74:ac:b9:3e:e7:53",
             "gw_name": "SpencerFi-HomeBase",
             "gw_system-stats": {
-                "cpu": "28.8",
-                "mem": "82.5",
-                "uptime": "3500951"
+                "cpu": "25.9",
+                "mem": "81.5",
+                "uptime": "4101504"
             },
             "gw_version": "1.11.4.3940",
             "isp_name": "Spectrum",
@@ -32,19 +32,19 @@
             "num_disconnected": 0,
             "num_gw": 1,
             "num_pending": 0,
-            "num_sta": 10,
-            "rx_bytes-r": 3355,
+            "num_sta": 9,
+            "rx_bytes-r": 3345,
             "status": "ok",
             "subsystem": "wan",
-            "tx_bytes-r": 6764,
+            "tx_bytes-r": 3117,
             "uptime_stats": {
                 "WAN": {
                     "availability": 100.0,
-                    "latency_average": 34,
+                    "latency_average": 36,
                     "time_period": 86400
                 },
                 "WAN2": {
-                    "downtime": 3500910
+                    "downtime": 4101463
                 }
             },
             "wan_ip": "174.100.165.160"
@@ -52,17 +52,17 @@
         {
             "drops": 5,
             "gw_mac": "74:ac:b9:3e:e7:53",
-            "latency": 34,
-            "rx_bytes-r": 3355,
-            "speedtest_lastrun": 0,
-            "speedtest_ping": 0,
-            "speedtest_status": "Idle",
+            "latency": 37,
+            "rx_bytes-r": 3345,
+            "speedtest_lastrun": 1650306821,
+            "speedtest_ping": 43,
+            "speedtest_status": "Success",
             "status": "ok",
             "subsystem": "www",
-            "tx_bytes-r": 6764,
-            "uptime": 783349,
-            "xput_down": 0.0,
-            "xput_up": 0.0
+            "tx_bytes-r": 3117,
+            "uptime": 1383888,
+            "xput_down": 307.804,
+            "xput_up": 23.288
         },
         {
             "lan_ip": null,
@@ -73,10 +73,10 @@
             "num_pending": 0,
             "num_sw": 3,
             "num_user": 4,
-            "rx_bytes-r": 4403,
+            "rx_bytes-r": 11071,
             "status": "error",
             "subsystem": "lan",
-            "tx_bytes-r": 96909
+            "tx_bytes-r": 23330
         },
         {
             "status": "unknown",

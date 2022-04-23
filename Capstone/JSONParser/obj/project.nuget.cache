@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PKHBiZTVEel/1mjlJE7sM6vqoqV6vDpc/5HKnnGT1bZbtDdLtlohc6uycLBKYXK6cZEsXnlKAjQwnf7wZ9pzAA==",
+  "dgSpecHash": "Fb2zeh8/755KW0LFL+7+Cof8sI6AJX2FBUL/KTLo6dqhBI09iZ1Z1+rVUN6/BUTcYmZvnfKfbg/y/LYVQ8/YZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michael\\OneDrive\\Documents\\Capstone\\App\\Capstone\\JSONParser\\JSONParser.csproj",
+  "projectFilePath": "C:\\Users\\ProperAccess\\Source\\Repos\\ASUCapstone-ProperAcccess\\Capstone\\JSONParser\\JSONParser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Michael\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\ProperAccess\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

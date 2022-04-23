@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 headers = {"Accept": "application/json","Content-Type": "application/json"}
@@ -12,7 +13,8 @@ for endpoint in endpoints:
     endpointResponse = s.get('https://192.168.1.1/proxy/network/api/s/default/'+endpoint, headers = headers, verify = False, timeout = 1)
     parsed = json.loads(endpointResponse.text)
     json_object = json.dumps(parsed, indent=4, sort_keys=True)
-    with open(endpoint + ".json", "w") as outfile:
+    completeName = os.path.join("../GetJson/"+ endpoint+".json") 
+    with open(completeName, "w") as outfile:
         outfile.write(json_object)
 
 #print(r.status_code)
