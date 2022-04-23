@@ -1,1 +1,67 @@
 
+
+.filter-buttons div {
+  border: solid;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 1px;
+  padding: 2px 2px 2px 2px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #fc221c;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+
+td {
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+.filter-buttons div {
+  border: solid;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 1px;
+  padding: 2px 2px 2px 2px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #fc221c;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+
+td {
+  text-align: center !important;
+  margin: 4px 4px 4px 4px !important;
+}
+
+select {
+  margin-bottom: 20px;
+}
