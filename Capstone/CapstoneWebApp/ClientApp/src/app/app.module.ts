@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { MatTableModule } from '@angular/material'
+import { MatTableModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material';
+import { MatPaginatorModule } from '@angular/material';
+import { MatCardModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { MatPaginatorModule } from '@angular/material';
 //import { CounterComponent } from './counter/counter.component';
 //import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { EventReportComponent } from './event-report/event-report.component';
@@ -29,7 +31,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     FormsModule,
     MatTableModule,
+    MatButtonModule,
     MatPaginatorModule,
+    MatCardModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       //{ path: 'counter', component: CounterComponent },

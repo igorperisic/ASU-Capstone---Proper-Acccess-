@@ -29,13 +29,45 @@
       <!-- Symbol Column -->
       <ng-container matColumnDef="Advanced">
         <th mat-header-cell *matHeaderCellDef> Advanced </th>
-        <td mat-cell *matCellDef="let element"> {{element.eventData}} </td>
+        <td mat-cell *matCellDef="let element">
+        <button mat-raised-button (click)="showAdvancedTable(element.eventData, element.id)">Expand</button>
+        </td>
       </ng-container>
     </tr>
     <tr mat-header-row *matHeaderRowDef="headers"></tr>
     <tr mat-row *matRowDef="let row; columns: headers;"></tr>
   </table>
   <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
+<div *ngIf="currentSelect && advancedData">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Advanced Info</mat-card-title>
+      <mat-card-subtitle>All info returned from event at position {{advancedDataId}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p *ngIf="advancedData._id"><b>Id:</b> {{advancedData._id}}</p>
+      <p *ngIf="advancedData.ap"><b>Access Point:</b> {{advancedData.ap}}</p>
+      <p *ngIf="advancedData.ap_displayName"><b>Access Point Display Name:</b> {{advancedData.ap_displayName}}</p>
+      <p *ngIf="advancedData.site_id"><b>Site Id:</b> {{advancedData.site_id}}</p>
+      <p *ngIf="advancedData.ap_model"><b>Access Point Model:</b> {{advancedData.ap_model}}</p>
+      <p *ngIf="advancedData.ap_key"><b>Access Point Key:</b> {{advancedData.ap_key}}</p>
+      <p *ngIf="advancedData.bytes"><b>Bytes:</b> {{advancedData.bytes}}</p>
+      <p *ngIf="advancedData.datetime"><b>DateTime:</b> {{advancedData.datetime}}</p>
+      <p *ngIf="advancedData.duration"><b>Duration:</b> {{advancedData.duration}}</p>
+      <p *ngIf="advancedData.hostkey"><b>HostKey:</b> {{advancedData.hostkey}}</p>
+      <p *ngIf="advancedData.key"><b>Key:</b> {{advancedData.key}}</p>
+      <p *ngIf="advancedData.msg"><b>Message:</b> {{advancedData.msg}}</p>
+      <p *ngIf="advancedData.ssid"><b>SSID:</b> {{advancedData.ssid}}</p>
+      <p *ngIf="advancedData.subsystem"><b>Subsystem:</b> {{advancedData.subsystem}}</p>
+      <p *ngIf="advancedData.time"><b>Time:</b> {{advancedData.time}}</p>
+      <p *ngIf="advancedData.user"><b>User:</b> {{advancedData.user}}</p>
+      <p *ngIf="advancedData.channel"><b>Channel:</b> {{advancedData.channel}}</p>
+      <p *ngIf="advancedData.radio"><b>Radio:</b> {{advancedData.radio}}</p>
+      <p *ngIf="advancedData.channel_from"><b>Channel From:</b> {{advancedData.channel_from}}</p>
+      <p *ngIf="advancedData.channel_to"><b>Channel To:</b> {{advancedData.channel_t}}</p>
+    </mat-card-content>
+  </mat-card>
 </div>
 
 

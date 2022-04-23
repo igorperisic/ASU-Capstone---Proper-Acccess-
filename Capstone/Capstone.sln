@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone", "Capstone\Capstone.csproj", "{2AB82843-C47C-47D1-B51B-585F41AB7056}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapstoneWebApp", "CapstoneWebApp\CapstoneWebApp.csproj", "{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFiParserService", "UniFiParserService\UniFiParserService.csproj", "{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONParser", "JSONParser\JSONParser.csproj", "{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONParser", "JSONParser\JSONParser.csproj", "{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AB82843-C47C-47D1-B51B-585F41AB7056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AB82843-C47C-47D1-B51B-585F41AB7056}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AB82843-C47C-47D1-B51B-585F41AB7056}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AB82843-C47C-47D1-B51B-585F41AB7056}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D718E6F-96FC-4FA1-B769-AD9D4B59546C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8B4B1D4-277E-4EEA-B273-03C99C5F03FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD84005A-F722-4CE0-9BB3-62F37F8EE1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU

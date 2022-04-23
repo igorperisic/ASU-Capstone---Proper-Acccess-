@@ -11,6 +11,8 @@ import { MatTableDataSource } from '@angular/material/table';
 export class EventReportComponent implements OnInit {
   headers: string[] = ['Position', 'Time', 'Message', 'Advanced'];
   public data: EventData[];
+  public advancedData: EventData;
+  public advancedDataId: number;
   public currentSelect: string;
   private paginator: MatPaginator;
   dataSource = new MatTableDataSource<TableData>();
@@ -59,7 +61,10 @@ export class EventReportComponent implements OnInit {
         tempData.push(myObj);
       });
     this.dataSource = new MatTableDataSource<TableData>(tempData);
-
+  }
+  showAdvancedTable(eventData: EventData,id: number) {
+    this.advancedDataId = id;
+    this.advancedData = eventData;
   }
   setDataSourceAttributes() {
     this.dataSource.paginator = this.paginator;
